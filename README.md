@@ -52,3 +52,31 @@ Aplicar **5 patrones de diseño GoF** para resolver estos problemas, logrando:
 
 Los estudiantes deberán seleccionar y aplicar patrones que respondan a los puntos críticos anteriores.
 
+
+
+# Plan de Integración Final
+
+## Puntos de Sincronización Mínimos
+
+- **Día 3:** Todos los integrantes comparten avances (código base completado).
+- **Día 5:** El Integrante 4 presenta los diagramas preliminares.
+- **Día 7:** El Integrante 5 envía el documento final integrado para la revisión final del equipo.
+
+---
+
+## Reglas Clave para Reducir Dependencias
+
+1. **Cada integrante debe usar los fragmentos de código base proporcionados** en este documento para garantizar coherencia técnica.
+2. Los **namespace deben ser consistentes**, siguiendo la convención:  
+   `PoliMarket.[Modulo]`
+3. Para **interfaces compartidas**, se deben respetar exactamente los ejemplos y firmas entregadas.
+4. Si un integrante necesita **referenciar una clase creada por otro**, debe hacerlo exclusivamente a través de su **interfaz pública**, **no la implementación interna**.
+5. Evitar acoplamientos directos entre módulos; los patrones aplicados (Facade, Proxy, Observer, Strategy, Factory) deben funcionar como capa de desacoplamiento.
+
+---
+
+## Nota Final
+
+Este plan de integración garantiza que cada integrante pueda trabajar **de forma independiente**, con un **marco claro**, responsabilidades definidas y código inicial estructurado.  
+¡Éxitos en el proceso de desarrollo y ensamblaje final del proyecto!
+

@@ -155,6 +155,27 @@ package "PoliMarket.Vendedores" {
 
 @enduml
 ```
+```text
+OTRA OPCION SUGERIDA ELIJE LA QUE MAS SE TE ADAPTE
+[ESQUEMA BASE - Diagrama de Componentes]
+Componentes principales:
+- Componente "GestiónVendedores" 
+  (usa: Factory Method, depende de: RRHH)
+
+- Componente "SistemaVentas" 
+  (usa: Proxy, Observer; provee: ISistemaVentas)
+
+- Componente "FachadaBodega"
+  (usa: Facade; requiere: Inventario, Proveedores)
+
+- Componente "GestorEntregas"
+  (usa: Strategy; requiere: SistemaVentas, Bodega)
+
+Interfaz de cada componente (puertos):
+- ISistemaVentas
+- IFachadaBodega
+- IGestorEntregas
+```
 
 Herramientas Sugeridas:
 draw.io (gratis, online)

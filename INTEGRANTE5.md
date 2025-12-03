@@ -68,7 +68,7 @@ A continuación, un modelo de encuesta para evaluar la madurez, desempeño y cal
 3. **¿El equipo cumplió con los hitos y compromisos internos?**  
    (1 – 5)
 
----
+
 
 ### **Preguntas abiertas**
 
@@ -81,9 +81,6 @@ A continuación, un modelo de encuesta para evaluar la madurez, desempeño y cal
 6. **Sugerencias para mejorar en futuros trabajos colaborativos:**  
    _Respuesta abierta_
 
----
-
----
 
 ## 3. Simulación de Resultados (ejemplo para incluir en el análisis)
 
@@ -113,7 +110,6 @@ Puedes usar esta simulación para completar la sección 4 del informe:
   - Definir un calendario semanal más estricto.  
   - Centralizar la documentación en un solo repositorio.
 
----
 
 ## 4. Base para el Análisis Final de Madurez (para incluir en el informe)
 
